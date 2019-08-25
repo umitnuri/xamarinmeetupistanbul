@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:labels="clr-namespace:XamarinMeetupIstanbul.Controls.Labels;assembly=XamarinMeetupIstanbul"
+             xmlns:buttons="clr-namespace:XamarinMeetupIstanbul.Controls.Buttons;assembly=XamarinMeetupIstanbul"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="XamarinMeetupIstanbul.Views.SecondPage">
+    <ContentView ControlTemplate="{StaticResource PrimaryTemplate}">
+        <StackLayout>
+          <labels:TitleLabel Text="{Binding Title}"/>
+          <buttons:PrimaryButton Text="GoBack" Command="{Binding GoBack}"/>
+        </StackLayout>
+    </ContentView>
+</ContentPage>

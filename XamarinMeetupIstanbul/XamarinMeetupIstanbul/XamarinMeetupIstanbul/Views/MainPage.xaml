@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:labels="clr-namespace:XamarinMeetupIstanbul.Controls.Labels;assembly=XamarinMeetupIstanbul"
+             xmlns:buttons="clr-namespace:XamarinMeetupIstanbul.Controls.Buttons;assembly=XamarinMeetupIstanbul"
+             xmlns:entries="clr-namespace:XamarinMeetupIstanbul.Controls.Entries;assembly=XamarinMeetupIstanbul"
+             x:Class="XamarinMeetupIstanbul.Views.MainPage"
+             Title="{Binding Title}">
+    <ContentView ControlTemplate="{StaticResource PrimaryTemplate}">
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <labels:TitleLabel Text="TitleLabel"/>
+            <labels:SubTitleLabel Text="Sub TitleLabel"/>
+            <labels:CaptionLabel Text="CaptionLabel"/>
+            <buttons:PrimaryButton Text="Next" Command="{Binding GotoNext}"/>
+            <buttons:SecondaryButton Text="Secondary"/>
+            <entries:PrimaryEntry/>
+            <entries:SecondaryEntry/>
+        </StackLayout>
+    </ContentView>
+</ContentPage>

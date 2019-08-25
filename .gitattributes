@@ -1,0 +1,3 @@
+*.pdf binary
+**/Assets.xcassets/*.imageset/Contents.json binary
+**/drawable/*.xml binary

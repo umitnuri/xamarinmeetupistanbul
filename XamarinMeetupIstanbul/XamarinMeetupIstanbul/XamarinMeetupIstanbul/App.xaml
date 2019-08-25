@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms"
+             xmlns:styles="clr-namespace:XamarinMeetupIstanbul.Controls.Styles;assembly=XamarinMeetupIstanbul"
+             xmlns:templates="clr-namespace:XamarinMeetupIstanbul.Controls.Templates;assembly=XamarinMeetupIstanbul"
+             x:Class="XamarinMeetupIstanbul.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <styles:Colors/>
+                <styles:Fonts/>
+            </ResourceDictionary.MergedDictionaries>
+            <templates:PrimaryTemplate x:Key="PrimaryTemplate"/> 
+        </ResourceDictionary>
+    </Application.Resources>
+</prism:PrismApplication>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMeetupIstanbul.Controls.Styles.Fonts">
+    <OnPlatform x:Key="SourceSansPro-Black" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-Black"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-Black.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-BlackItalic" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-BlackItalic"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-BlackItalic.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-Bold" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-Bold"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-Bold.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-BoldItalic" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-BoldItalic"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-BoldItalic.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-ExtraLight" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-ExtraLight"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-ExtraLight.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-ExtraLightItalic" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-ExtraLightItalic"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-ExtraLightItalic.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-Light" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-Light"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-Light.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-LightItalic" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-LightItalic"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-LightItalic.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-Regular" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-Regular"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-Regular.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-RegularItalic" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-RegularItalic"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-RegularItalic.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-SemiBold" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-SemiBold"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-SemiBold.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="SourceSansPro-SemiBoldItalic" x:TypeArguments="x:String">
+        <On Platform="iOS" Value="SourceSansPro-SemiBoldItalic"/>
+        <On Platform="Android" Value="Fonts/SourceSansPro-SemiBoldItalic.ttf#"/>
+    </OnPlatform>
+    <OnPlatform x:Key="Small" x:TypeArguments="x:Double">
+        <On Platform="iOS" Value="12"/>
+        <On Platform="Android" Value="12"/>
+    </OnPlatform>
+    <OnPlatform x:Key="Medium" x:TypeArguments="x:Double">
+        <On Platform="iOS" Value="14"/>
+        <On Platform="Android" Value="14"/>
+    </OnPlatform>
+    <OnPlatform x:Key="Large" x:TypeArguments="x:Double">
+        <On Platform="iOS" Value="16"/>
+        <On Platform="Android" Value="16"/>
+    </OnPlatform>
+    <OnPlatform x:Key="Larger" x:TypeArguments="x:Double">
+        <On Platform="iOS" Value="18"/>
+        <On Platform="Android" Value="18"/>
+    </OnPlatform>
+    <OnPlatform x:Key="Huge" x:TypeArguments="x:Double">
+        <On Platform="iOS" Value="20"/>
+        <On Platform="Android" Value="20"/>
+    </OnPlatform>
+</ResourceDictionary>
